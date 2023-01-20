@@ -9,6 +9,12 @@ var symbols= '!@#$%^&*()_+='
 var numbers= '0123456789'
 
 
+function generatePassword () {
+let passwordLength = prompt ('What is the Length of the Password? No less than 8 and No More 128 Characters ')
+if (passwordLength <128 && passwordLength >8)
+
+}
+
 
 // Write password to the #password input
 function writePassword() {
