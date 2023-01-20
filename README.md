@@ -34,7 +34,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-
+Your site is live at https://bullspippen.github.io/Module-3---JavaScript-Challenge---Password-Generator/
+Last deployed by @Bullspippen Bullspippen 
 
 
 
