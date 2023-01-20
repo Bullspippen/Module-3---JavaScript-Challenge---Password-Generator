@@ -28,7 +28,7 @@ function generatePassword () {
       userPassword.push(...upperCase)
     } else{
       alert('Try Again')
-      
+
     }
     let lowerChoice = confirm('Would you like Lowercase Characters?')
     if(lowerChoice){
@@ -53,7 +53,7 @@ function generatePassword () {
     }
 
 
-
+//Randomizer
   }else{
     alert('Please and Kindly Follow the Instructions')
   }
