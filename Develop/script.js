@@ -27,19 +27,29 @@ function generatePassword () {
     if(upperChoice){
       userPassword.push(...upperCase)
     } else{
-      alert('hello')
+      alert('Try Again')
+      
     }
     let lowerChoice = confirm('Would you like Lowercase Characters?')
     if(lowerChoice){
       userPassword.push(...lowerCase)
+    } else{
+      alert('Try Again')
+
     }
     let numberChoice = confirm('Would you like Numbers?')
     if(numberChoice){
       userPassword.push(...numbers)
+    } else{
+      alert('Try Again')
+
     }
     let symbolsChoice = confirm('Would you like Symbols?')
     if(symbols){
       userPassword.push(...symbols)
+    } else{
+      alert('Try Again')
+
     }
 
 
